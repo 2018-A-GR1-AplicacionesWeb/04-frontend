@@ -1,0 +1,21 @@
+
+.verde {
+    color: greenyellow;
+}
+
+.rojo {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.azul-hover {
+    color: aqua;
+}
+
+.azul-hover:hover {
+    color: green;
+    cursor: pointer;
+}
