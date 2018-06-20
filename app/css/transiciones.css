@@ -11,6 +11,7 @@
     /* -webkit-transition: color 1s;
     transition: color 1s; */
 }
+
 /*
 .titulo:hover {
     background-color: red;
@@ -46,4 +47,13 @@
     }
 }
 
+.transicion-2d {
+    -ms-transform: translate(10px, 20px); /* IE 9 */
+    -webkit-transform: translate(10px, 20px); /* Safari */
+    transform: translate(10px, 30px)
+    rotate(-5deg)
+    scale(0.5, 1.5)
+    skew(44deg)
+    rotate3d(3,3,3, 6deg);
+}
 
