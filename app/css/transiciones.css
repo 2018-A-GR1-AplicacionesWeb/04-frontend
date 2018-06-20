@@ -2,10 +2,14 @@
     font-size: 15px;
     color: yellow;
     background-color: black;
+    animation-name: colores;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     /* -webkit-transition: color 1s;
     transition: color 1s; */
 }
-
 /*
 .titulo:hover {
     background-color: red;
@@ -13,12 +17,11 @@
     font-size: 25px;
 }
 */
-
 @keyframes colores {
     0% {
-        background-color: red;
-        color: brown;
-        font-size: 10px;
+        color: yellow;
+        background-color: black;
+        font-size: 15px;
     }
     40% {
         background-color: yellow;
@@ -32,12 +35,12 @@
     }
     75% {
         background-color: green;
-        color: yellow;
+        color: black;
         font-size: 20px;
     }
     100% {
-        background-color: red;
-        color: blue;
+        color: yellow;
+        background-color: black;
         font-size: 15px;
     }
 }
