@@ -19,3 +19,28 @@
     color: green;
     cursor: pointer;
 }
+
+.bg-azul {
+    background-color: blue;
+}
+
+.bg-amarillo {
+    background-color: yellow;
+}
+
+.bg-verde {
+    background-color: green;
+}
+
+.bg-rojo {
+    background-color: red;
+}
+
+.bg-cafe {
+    background-color: brown;
+}
+
+.bg-rosado {
+    background-color: deeppink;
+}
+
