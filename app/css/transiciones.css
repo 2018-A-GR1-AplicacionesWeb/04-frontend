@@ -1,0 +1,13 @@
+.titulo {
+    font-size: 15px;
+    color: yellow;
+    background-color: black;
+    -webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 2s;
+}
+
+.titulo:hover {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+}
