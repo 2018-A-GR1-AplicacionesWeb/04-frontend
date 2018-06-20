@@ -2,12 +2,44 @@
     font-size: 15px;
     color: yellow;
     background-color: black;
-    -webkit-transition: background-color 2s; /* Safari */
-    transition: background-color 2s;
+    /* -webkit-transition: color 1s;
+    transition: color 1s; */
 }
 
+/*
 .titulo:hover {
     background-color: red;
     color: white;
     font-size: 25px;
 }
+*/
+
+@keyframes colores {
+    0% {
+        background-color: red;
+        color: brown;
+        font-size: 10px;
+    }
+    40% {
+        background-color: yellow;
+        color: green;
+        font-size: 20px;
+    }
+    50% {
+        background-color: blue;
+        color: red;
+        font-size: 25px;
+    }
+    75% {
+        background-color: green;
+        color: yellow;
+        font-size: 20px;
+    }
+    100% {
+        background-color: red;
+        color: blue;
+        font-size: 15px;
+    }
+}
+
+
