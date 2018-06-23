@@ -35,12 +35,16 @@ function crearContenido() {
     contenedorCardBody.appendChild(elementoTitulo);
     contenedorCardBody.appendChild(elementoParrafo);
     contenedorCardBody.appendChild(elementoBoton);
-    var parrafo = document
-        .createElement("p");
-    parrafo.innerHTML = 'Hola amigos';
-    var imagen = document
-        .createElement("img");
-    imagen.src = adrian.urlImagen;
-    etiquetaContenedora.appendChild(parrafo);
-    etiquetaContenedora.appendChild(imagen);
+    var etiquetaImagen = document
+        .createElement('img');
+    etiquetaImagen.src = 'https://i.ytimg.com/vi/28P7oSkPK2M/hqdefault.jpg';
+    etiquetaImagen.className = 'card-img-top';
+    etiquetaImagen.alt = 'Imagen de mario typing';
+    var etiquetaCarta = document
+        .createElement('div');
+    etiquetaCarta.className = 'card';
+    etiquetaCarta.appendChild(etiquetaImagen);
+    etiquetaCarta.appendChild(contenedorCardBody);
+    // meter el contenido html en el contenedor
+    etiquetaContenedora.appendChild(etiquetaCarta);
 }
