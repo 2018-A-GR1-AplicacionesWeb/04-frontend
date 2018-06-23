@@ -70,12 +70,12 @@ function traerPost(idPost: number) {
         if (this.readyState == 4
             && this.status == 200) {
             console.log(this.responseText);
+            const postJson = JSON.parse(this.responseText);
             console.log(
-                JSON.parse(this.responseText)
+                postJson
             );
             console.log(
-                JSON.parse(this.responseText)
-                    .userId
+                postJson.userId
             );
         }
     };
